@@ -1,58 +1,65 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #181C26;
+  margin: 0;
+  padding: 0;
+  
 }
-body, html{
-    height: 100%;
-    font-family: 'Istok Web', sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: "Istok Web", sans-serif;
+  background-color: #181c26;
 }
 
 /* Nav Bar Styles */
 .container-nav-bar-fixed {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 999;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 12px 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0px;
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.container-nav-bar-fixed.blurred {
+    background: rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(50px); 
 }
 
 .title-nav-bar {
-    color: #F5C760;
-    text-decoration: none;
-    font-size: 25px;
-    letter-spacing: -1px;
-    transition: all .5s ease-in-out;
+  color: #f5c760;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: -1px;
+  transition: all 0.5s ease-in-out;
 }
 
 .container-links-nav-bar {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .link-nav-bar {
-    text-decoration: none;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
-.link-nav-bar:hover{
-    transform: scale(1.1);
-    color: #F5C760;
-
+.link-nav-bar:hover {
+  transform: scale(1.1);
+  color: #f5c760;
 }
 
 .container-language-nav-bar {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-
