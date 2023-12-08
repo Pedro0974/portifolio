@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 body,
 html {
@@ -26,8 +25,8 @@ html {
 }
 
 .container-nav-bar-fixed.blurred {
-    background: rgba(0, 0, 0, 0.9); 
-    backdrop-filter: blur(50px); 
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(50px);
 }
 
 .title-nav-bar {
@@ -62,4 +61,136 @@ html {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.language-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  font-size: 14px;
+}
+
+.language-button:hover {
+  transform: scale(1.1);
+  color: #f5c760;
+}
+
+/* CSS para o banner home */
+.main-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 24px;
+}
+
+.container-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.articles-info-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #fff;
+  width: 70%;
+}
+.articles-info-banner h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.articles-info-banner div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.articles-info-banner h5 {
+  color: #f5c760;
+}
+
+.text-banner-golden {
+  color: #f5c760;
+}
+
+.span-line {
+  width: 28px;
+  height: 2px;
+  background-color: #f5c760;
+}
+
+.articles-button {
+  width: 175px;
+  height: 37px;
+  background-color: #f5c760;
+  color: black;
+  font-weight: bold;
+  border: none;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.articles-links-banner {
+  display: flex;
+  gap: 6px;
+  width: 100%;
+  justify-content: start;
+  margin-top: 20%;
+  padding-left: 100px;
+}
+
+.articles-links-banner a {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.articles-links-banner a:hover {
+  color: #f5c760;
+}
+
+.image-banner {
+  width: 25rem;
+}
+
+.section-scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  padding-bottom: 8%;
+  height: 100vh;
+}
+
+.section-scroll-down h3 {
+  transform: rotate(90deg);
+  font-size: small;
+  font-weight: 400;
+  color: #f5c760;
+}
+
+.arrow-banner {
+  transform: rotate(0deg);
+  width: 10px;
+}
+
+/* CSS main About */
+.container-main-about {
+  display: flex;
+  flex-direction: column;
+  background-color: #14171E;
+  width: 100%;
+  height: auto;
 }

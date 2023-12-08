@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Pedro Lucas</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- NavBar Fixed -->
     <nav class="container-nav-bar-fixed">
-        <h1 class="title-nav-bar">Pedro Lucas</h1>
-        <article class="container-links-nav-bar">
-            <a class="link-nav-bar" href="#home">Home</a><br/>
-            <a class="link-nav-bar" href="#about">About</a><br/>
-            <a class="link-nav-bar" href="#works">Works</a>
-            <a class="link-nav-bar" href="#skills">Skills</a>
-            <a class="link-nav-bar" href="#resume">Resume</a>
-            <a class="link-nav-bar" href="#contacts">Contacts</a>
-        </article>
+      <h1 class="title-nav-bar">Pedro Lucas</h1>
+      <article class="container-links-nav-bar">
+        <a class="link-nav-bar" href="#home">Home</a><br />
+        <a class="link-nav-bar" href="#about">About</a><br />
+        <a class="link-nav-bar" href="#works">Works</a>
+        <a class="link-nav-bar" href="#skills">Skills</a>
+        <a class="link-nav-bar" href="#resume">Resume</a>
+        <a class="link-nav-bar" href="#contacts">Contacts</a>
+      </article>
 
-        <article class="container-language-nav-bar">
-            <button class="language-button">ENG</button>
-            <button class="language-button">PT-BR</button>
-        </article>
+      <article class="container-language-nav-bar">
+        <button class="language-button">ENG</button>
+        <button class="language-button">PT-BR</button>
+      </article>
     </nav>
-    
-</body>
-<script src="./js/index.js"></script>
+
+    <section class="main-banner" id="home">
+      <article class="container-articles">
+        <div class="articles-info-banner">
+          <div>
+            <div class="span-line"></div>
+            <h5>Hello</h5>
+          </div>
+          <h1>I'm <span class="text-banner-golden">Pedro</span> Lucas</h1>
+          <p>
+            This is <span class="text-banner-golden">Pedro Lucas</span>, a
+            full-stack web developer passionate about creating innovative
+            solutions for the market
+          </p>
+          <button class="articles-button">DOWNLOAD CV</button>
+        </div>
+
+        <div class="articles-links-banner">
+          <a><i class="fa-brands fa-github"></i></a>
+          <a><i class="fa-brands fa-linkedin"></i></a>
+          <a><i class="fa-brands fa-instagram"></i></a>
+          <a><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </article>
+      <figure class="container-image-banner">
+        <img class="image-banner" src="./_assets/test.png" />
+      </figure>
+      <article class="section-scroll-down">
+        <h3>Scroll</h3>
+        <h3>down</h3>
+        <img class="arrow-banner" src="./_assets/Arrow 1.svg" alt="" />
+      </article>
+    </section>
+
+    <section class="container-main-about" id="about">
+      <article>
+        <figure></figure>
+        <div>
+          <div>
+            <div class="span-line"></div>
+            <h5>About Me</h5>
+          </div>
+        </div>
+      </article>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
 </html>
