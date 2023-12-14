@@ -193,4 +193,107 @@ html {
   background-color: #14171E;
   width: 100%;
   height: auto;
+  padding-bottom: 4rem;
+}
+
+.container-header-about {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 4rem;
+  padding-top: 3%;
+  padding-left: 24%;
+
+}
+
+.image-about {
+  width: 18rem;
+}
+
+.title-about {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & h1 {
+    font-size: 30px;
+    color: #f5c760;
+  }
+}
+
+.container-infos-about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+  width: 50%;
+
+  & p {
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+
+.section-skill-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  
+}
+.section-skill-down h3 {
+  transform: rotate(-90deg);
+  font-size: 30px;
+  font-weight: bold;
+  color: #f5c760;
+}
+
+.span-line-skill {
+  width: 3px;
+  height: 80px;
+  background-color: #f5c760;
+}
+
+.container-skills {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: space-evenly;
+  gap: 4rem;
+  margin-left: 10rem;
+}
+
+
+.container-list-skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 80px;
+
+  & h3 {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+  }
+  & div {
+    width: 40%;
+  }
+}
+
+progress {
+  width: 100%;
+  height: 4px;
+  background-color: black; /* Cor de fundo preta */
+}
+
+progress::-webkit-progress-value {
+  background-color: #F5C760; /* Cor do progresso */
+}
+
+progress::-webkit-progress-bar {
+  background-color: black; /* Cor de fundo preta da barra não preenchida */
+}
+
+progress::-moz-progress-bar {
+  background-color: #F5C760; /* Cor do progresso no Firefox */
 }
